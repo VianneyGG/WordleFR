@@ -46,7 +46,7 @@ $$
     E(\text{ADIEU}, \text{IDEAL}) = \{1, 2, 1, 1, 0\}
     $$
 
-    ![ADIEU](/adieu.png)
+    ![ADIEU](/media/adieu.png)
     
     *Figure 1: Explanation of feedback array [1,2,1,1,0] for guess 'ADIEU' against target 'IDEAL'.  
     Green (2): 'I' is in correct position  
@@ -62,7 +62,7 @@ H(M) = E(I(E^{-1}(\{E(M, X)\})))
          = E\left(-\sum_{\{\epsilon_1,...,\epsilon_5\}} \log_2(P(X \in E^{-1}(\{\epsilon_1,...,\epsilon_5\})))\right)
 $$
 
-![entropie](/entropie.png)
+![entropie](/media/entropie.png)
     
 *Figure 2: Depth enhancement in the algorithm to consider more possibilities.*
 
@@ -83,7 +83,7 @@ Two dictionary are considered:
 
 The greedy algorithm may converge on difficult words due to short-sighted optimization. The project explores increasing the search "depth" to address this.
 
-![profondeur](/profondeur.png)
+![profondeur](/media/profondeur.png)
     
 *Figure 3: Depth enhancement in the algorithm to consider more possibilities.*
 
@@ -109,6 +109,6 @@ Performance is compared between:
 
 
 
-![comparaison ouvreur](/Figure_1.png)
+![comparaison ouvreur](/media/Figure_1.png)
     
 *Figure 4: comparaison of first guesses between greedy and depth-enhanced algorithms.*
